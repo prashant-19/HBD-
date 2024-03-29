@@ -19,15 +19,15 @@ function App() {
   const getImageSize = (selectedOption) => {
     switch (selectedOption) {
       case 'option1':
-        return { width: '240px', height: '240px' };
+        return { width: '100px', height: '100px' };
       case 'option2':
-        return { width: '240px', height: '240px' };
+        return { width: '100px', height: '100px' };
       case 'option3':
-        return { width: '240px', height: '240px' };
+        return { width: '100px', height: '100px' };
       case 'option4':
-        return { width: '240px', height: '240px' };
+        return { width: '100px', height: '100px' };
       case 'option5':
-        return { width: '500px', height: '500px' };
+        return { width: '400px', height: '400px' };
       default:
         return { width: '240px', height: '240px' }; // Default size
     }
@@ -36,6 +36,7 @@ function App() {
   return (
     <div className="hello">
       <select onChange={handleImageChange}>
+        <option>Select</option>
         <option value="option1">144p</option>
         <option value="option2">240p</option>
         <option value="option3">360p</option>

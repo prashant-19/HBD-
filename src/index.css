@@ -10,3 +10,9 @@ body{
   height: 100vh;
   flex-direction: column-reverse;
 }
+
+select{
+  margin-top: 10px;
+  height: 2rem;
+  
+}
