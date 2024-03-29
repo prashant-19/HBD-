@@ -7,12 +7,12 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100svh;
   flex-direction: column-reverse;
 }
 
 select{
-  margin-top: 10px;
+  margin-top: 20px;
   height: 2rem;
   
 }
