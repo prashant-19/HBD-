@@ -25,7 +25,7 @@ function App() {
       case 'option3':
         return { width: '240px', height: '240px' };
       case 'option4':
-        return { width: '240px', height: '240px' };
+        return { width: '244px', height: '240px' };
       case 'option5':
         return { width: '500px', height: '500px' };
       default:
