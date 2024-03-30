@@ -5,7 +5,7 @@ import img1 from './images/144.png';
 import img2 from './images/240.png';
 import img3 from './images/360.png';
 import img4 from './images/720.png';
-import img5 from './images/108000.jpg';
+import img5 from './images/10800.jpg';
 
 function App() {
   const [selectedImage, setSelectedImage] = useState(null);
